@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Gallery For Zara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 275px;
+            /* Set a fixed height */
+            object-fit: cover;
+            /* Ensure the image covers the area while maintaining aspect ratio */
+        }
+        
+        .card-content {
+            padding: 15px;
+        }
+        
+        .card-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+        
+        .card-content textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            resize: vertical;
+        }
+        
+        @media (max-width: 600px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Picture Gallery For Zara Amelia-Rose Scarlett</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="Natalya-baby-1.jpeg" alt="Image 1">
+            <div class="card-content">
+                <h3>Image 1: 18 August 2024</h3>
+                <textarea placeholder="First picture of Zara received"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-2.jpeg" alt="Image 2">
+            <div class="card-content">
+                <h3>Image 2</h3>
+                <textarea placeholder="Second picture of Zara received"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-3.jpeg" alt="Image 3">
+            <div class="card-content">
+                <h3>Image 3</h3>
+                <textarea placeholder="Third picture of Zara received"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-4.jpeg" alt="Image 4">
+            <div class="card-content">
+                <h3>Image 4: 18 August 2024</h3>
+                <textarea placeholder="Fourth picture of Zara received. Zara is 5 pounds 9.5 Ounces"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-5-2.jpg" alt="Image 5">
+            <div class="card-content">
+                <h3>Image 5: 19 August 2024</h3>
+                <textarea placeholder="Fifth picture of Zara received. Zara is now 6 pounds 2.5 Ounces"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-6.jpeg" alt="Image 6">
+            <div class="card-content">
+                <h3>Image 6: 19 August 2024</h3>
+                <textarea placeholder="Zara with grand parents and aunt"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-7.jpeg" alt="Image 7">
+            <div class="card-content">
+                <h3>Image 7: 19 August 2024</h3>
+                <textarea placeholder="Zara with grand parents"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Natalya-baby-8.jpeg" alt="Image 8">
+            <div class="card-content">
+                <h3>Image 8: 19 August 2024</h3>
+                <textarea placeholder="Zara and mother"></textarea>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Image 9">
+            <div class="card-content">
+                <h3>Image 9</h3>
+                <textarea placeholder="Image to be added"></textarea>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
